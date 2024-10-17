@@ -22,4 +22,13 @@ int main () {
     printf("Enter a character: ");
     scanf("%d", &character);
     printf("%d \n", character >= 0 && character <= 100);
+
+    // Write a program to print the smallest number of two.
+    int number1;
+    printf("Enter first number: ");
+    scanf("%d", &number1);
+    int number2;
+    printf("Enter second number: ");
+    scanf("%d", &number2);
+    printf("%d \n", number1 < number2);
 }

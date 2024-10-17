@@ -87,9 +87,9 @@ int main() {
     // logical operators
     int num6 = 2;
     int num7 = 3;
-    printf("%d\n", num6 && num7); // true, logical AND
-    printf("%d\n", num6 || num7); // true, logical OR
-    printf("%d\n", !num6); // false, logical NOT
+    printf("%d\n", num6 && num7); // true, logical AND, both conditions are true
+    printf("%d\n", num6 || num7); // true, logical OR, any one condition is true
+    printf("%d\n", !num6); // false, logical NOT, negation of condition
 
     /*
     // logic gates
