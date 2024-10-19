@@ -61,11 +61,11 @@ int main () {
 
     // while loop
     // while (condition) { }
-    int q = 0;
-    while (q <= 5) {
-        printf("Hello, World!\n");
-        q = q + 1;
-    }
+    int q = 0; // initialization
+    while (q <= 5) { // condition
+        printf("Hello, World!\n"); // body
+        q = q + 1; // increment
+    } // ending
 
     // print the numbers from 0 to n, if n is given by user n = 4
     int n;
@@ -86,20 +86,33 @@ int main () {
 
     // do while loop
     // do { } while (condition);
-    int s = 0;
-    do {
-        printf("%d\n", s);
-        s = s + 1;
-    } while (s <= n);
+    int s = 0; // initialization
+    do { // body
+        printf("%d\n", s); // body
+        s = s + 1; // increment
+    } while (s <= n); // condition
 
     // print the sum of first n natural numbers. n = 4
-    int sum;
+    int num;
     printf("Enter the value of n: ");
-    scanf("%d", &sum);
+    scanf("%d", &num);
 
-    for (int i = 1; i <= sum; i++) {
-        printf("%d", sum = sum + i);
+    int sum = 0;
+    for (int i = 1; i <= num; i = i + 1) {
+        sum = sum +i;
     }
-    
+    printf("the sum of '%d' number is %d\n", num, sum);
+
+    for (int i = num; i >= 1; i = i - 1) {
+        printf("%d\n", i);
+    }
+
+    // print the table a number input by user
+    int table;
+    printf("enter the number: ");
+    scanf("%d", &table);
+    for (int i = 0 ; i <= 10; i = i + 1) {
+        printf("%d x %d = %d \n", i, i, table * i);
+    }
     return 0;
 }
