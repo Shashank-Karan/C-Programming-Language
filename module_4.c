@@ -99,7 +99,7 @@ int main () {
 
     int sum = 0;
     for (int i = 1; i <= num; i = i + 1) {
-        sum = sum +i;
+        sum = sum + i;
     }
     printf("the sum of '%d' number is %d\n", num, sum);
 
