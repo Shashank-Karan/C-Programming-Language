@@ -4,6 +4,8 @@
 int main () {
     printf("Hello, World!\n");
 
+    /*
+
     //  Q. print the numbers from 0 to 10
     // for loop
     for (int i = 0; i <= 10; i = i + 1) {
@@ -190,5 +192,34 @@ int main () {
     for (int var15 = 1; var15 <= num15; var15 = var15 + 1) {
         fact = fact * var15;
     } printf("Factorial of %d is %d\n", num15, fact);
+
+    // Q. Print reverse of the table for a number input by user.
+    int num16;
+    printf("Enter a number to find reverse table: ");
+    scanf("%d", &num16);
+    for (int var16 = 10; var16 >= 1; var16 = var16 -1) {
+        printf("%d x %d = %d\n", num16, var16, num16 * var16);
+    }
+
+    // Q. Calculate the sum of all numbers between 5 and 50. (including 5 and 50)
+    int sum2 = 0;
+    for (int var17 = 5; var17 <= 50; var17 = var17 + 1) {
+        sum2 = sum2 + var17;
+    } printf("%d\n", sum2);
+
+    */
+
+    // Q. Search on what a "nested loop" is & print this pattern using it.
+    //      *****
+    //      *****
+    //      *****
+    //      *****
+    printf("*****\n");
+    printf("*****\n");
+    printf("*****\n");
+    printf("*****\n");
+    // write a program to check if a number is prime or not.
+
+    // write a program to print prime numbers in a range.)
     return 0;
 }
