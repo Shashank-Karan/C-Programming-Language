@@ -112,6 +112,83 @@ int main () {
 
     // Q. keep taking numbers as input from user until user enters an odd number.
     // for loop
+    for (int num5; ;) {
+        printf("Enter a number: ");
+        scanf("%d", &num5);
+        if (num5 % 2 != 0) {
+            break;
+        }
+    } printf("You entered an odd number\n");
     // while loop
+    int num6;
+    while (1) {
+        printf("Enter a number: ");
+        scanf("%d", &num6);
+        if (num6 % 2 == 0) {
+            break;
+        }
+    } printf("You entered an even number\n");
     // do while loop
+    int num7;
+    do {
+        printf("Enter a number: ");
+        scanf("%d", &num7);
+        if (num7 * 2 == 12) {
+            break;
+        }
+    } while (1);
+    printf("You entered multiple of 12\n");
+
+    // Q. Keep taking numbers as input from user untill user enters a nunber which is multiple of 7. in for loop multiple of 7, in while loop multiple of 5, in do while loop multiple of 3.
+    // for loop
+    for (int num8; ;) {
+        printf("Enter a number to find multiple of 7: ");
+        scanf("%d", &num8);
+        if (num8 % 7 == 0) {
+            break;
+        } printf("Not a multiple of 7\n");
+    } printf("You entered a multiple of 7\n");
+    // while loop
+    int num9;
+    while (1) {
+        printf("enter a number to find multiple of 5: ");
+        scanf("%d", &num9);
+        if (num9 % 5 == 0) {
+            break;
+        } printf("Not a multiple of 5\n");
+    } printf("You entered a multiple of 5\n");
+    // do while loop
+    int num10;
+    do { 
+        printf("Enter a number to find multiple of 3: ");
+        scanf("%d", &num10);
+        if (num10 % 3 == 0) {
+            break;
+        } printf("Not a multiple of 3\n");
+    } while (1);
+    printf("You entered a multiple of 3\n");
+
+    // Q. print all numbers from 1 to 10 except for 6.
+    for (int var13 = 1; var13 <= 10; var13 = var13 + 1) {
+        if (var13 == 6) {
+            continue;
+        } printf("%d\n", var13);
+    }
+
+    // Q. print all the odd numbers from 5 to 50.
+    for (int var14 = 5; var14 <= 50; var14 = var14 + 1) {
+        if (var14 % 2 == 0) {
+            continue;
+        } printf("%d\n", var14);
+    }
+
+    // Q. print the factorial of a number
+    int num15;
+    printf("Enter a number to find factorial: ");
+    scanf("%d", &num15);
+    int fact = 1; 
+    for (int var15 = 1; var15 <= num15; var15 = var15 + 1) {
+        fact = fact * var15;
+    } printf("Factorial of %d is %d\n", num15, fact);
+    return 0;
 }

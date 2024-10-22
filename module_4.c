@@ -102,33 +102,15 @@ int main()
         s = s + 1;         // increment
     } while (s <= n); // condition
 
-    // print the sum of first n natural numbers. n = 4
+    // continue statement
+    // skip the current iteration and move to the next iteration
     int num;
-    printf("Enter number: ");
+    printf("Enter the value of num: ");
     scanf("%d", &num);
-    int sum = 0;
-    for (int i = num; i >= 1; i = i - 1)
-    {
-        sum = sum + i;
+    for (int i = 0; i <= num; i = i + 1) {
+        if (i == 3) {
+            continue;
+        } printf("%d\n", i);
     }
-    printf("%d\n", sum);
-
-    // reverse the number
-    for (int i = num; i >= 1; i = i - 1)
-    {
-        printf("%d\n", i);
-    }
-
-    // print the table a number input by user
-    int table;
-    printf("enter number: ");
-    scanf("%d", &table);
-    for (int i = 1; i <= 10; i = i + 1)
-    {
-        printf("%d * %d = %d\n", table, i, table * i);
-    }
-
-    // keep taking numbers as input from user until user enters an odd number.
-    
     return 0;
 }
