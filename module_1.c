@@ -42,6 +42,19 @@ int main () {
    scanf("%f", &areaCircle);
    float areaOfCircle = 2*3.14*areaCircle;
    printf("%f \n", areaOfCircle);
+
+   // data types
+   int num1 = 10; // %d or %i -> integer
+   float num2 = 20.9999; // %f -> float
+   double num3 = 30; // %lf -> double
+   char ch = 'A'; // %c -> character
+   int name = "Hello"; // %s -> string
+    printf("%d \n", num1);
+    printf("%f \n", num2);
+    printf("%lf \n", num3);
+    printf("%c \n", ch);
+    printf("%s \n", name);
+
    
    return 0;
 }

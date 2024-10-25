@@ -4,8 +4,6 @@
 int main () {
     printf("Hello, World!\n");
 
-    /*
-
     //  Q. print the numbers from 0 to 10
     // for loop
     for (int i = 0; i <= 10; i = i + 1) {
@@ -206,8 +204,6 @@ int main () {
     for (int var17 = 5; var17 <= 50; var17 = var17 + 1) {
         sum2 = sum2 + var17;
     } printf("%d\n", sum2);
-
-    */
 
     // Q. Search on what a "nested loop" is & print this pattern using it.
     //      *****
