@@ -14,12 +14,12 @@ int main () {
     int num3;
     printf("Enter third number: ");
     scanf("%d", &num3);
-    int average = (num1 + num2 + num2) / 3;
+    int average = (num1 + num2 + num3) / 3;
     printf("%d \n", average);
 
     // Write a program to check if given character is digit or not.
     int character;
-    printf("Enter a character: ");
+    printf("Enter a Number: ");
     scanf("%d", &character);
     printf("%d \n", character >= 0 && character <= 100);
 
@@ -31,4 +31,12 @@ int main () {
     printf("Enter second number: ");
     scanf("%d", &number2);
     printf("%d \n", number1 < number2);
+
+    // write a program to check if a number is divisible by 2 or not
+    int num12;
+    printf("Enter a number: ");
+    scanf("%d", &num12);
+    printf("%d\n", num12 % 2 == 0);
+
+    return 0;
 }

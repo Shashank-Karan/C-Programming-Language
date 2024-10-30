@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include <string.h>
 
 int main() {
     printf("Hello, World!\n");
@@ -109,12 +110,6 @@ int main() {
     num10 += num11; // num10 = num10 + num11
     printf("%d\n", num10);
 
-    // write a program to check if a number is divisible by 2 or not
-    int num12;
-    printf("Enter a number: ");
-    scanf("%d", &num12);
-    printf("%d\n", num12 % 2 == 0);
-
     // Print 1(true) or 0(false) for the following statements:
     // a = if it's sunday & it's snowing -> true
     // b = if it's monday & it's raining -> true
@@ -137,5 +132,6 @@ int main() {
     printf("Enter a two digit number: ");
     scanf("%d", &twoDigitNumber);
     printf("%d\n", twoDigitNumber > 9 && twoDigitNumber < 100);
+    
     return 0;
 }

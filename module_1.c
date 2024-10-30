@@ -1,20 +1,21 @@
 #include <stdio.h>
+#include <string.h>
+#include <math.h>
 
 int main () {
     // Hello, World! Print
     printf("Hello, World! \n"); // Print Hello, World!
 
     // Variable
-    int age = 18; 
-    age = 17; 
-    char star = '*'; 
-    float pi = 3.14; 
-
     /*
     integer constants = 1,2,3,0,-1,-2, .....
     real constants = 1.0,2.0,3.14,-24 ....
     Character contants = 'a','b','A','#','&'
     */
+    int age = 18; 
+    age = 17; 
+    char star = '*'; 
+    float pi = 3.14; 
 
    // output
    // integer
@@ -46,15 +47,29 @@ int main () {
    // data types
    int num1 = 10; // %d or %i -> integer
    float num2 = 20.9999; // %f -> float
-   double num3 = 30; // %lf -> double
+   double num3 = 30.999; // %lf -> double
    char ch = 'A'; // %c -> character
-   int name = "Hello"; // %s -> string
+   char name[10] = "Hellow"; // %s -> string
     printf("%d \n", num1);
     printf("%f \n", num2);
     printf("%lf \n", num3);
     printf("%c \n", ch);
-    printf("%s \n", name);
+    printf("%s \n", name[10]);
 
+    // size of data types
+    int myInt;
+    float myFloat;
+    double myDouble;
+    char myChar;
+
+    printf("%lu\n", sizeof(myInt));
+    printf("%lu\n", sizeof(myFloat));
+    printf("%lu\n", sizeof(myDouble));
+    printf("%lu\n", sizeof(myChar));
+   
+   // constants //unchangeable and read-only
+   const int myNmber = 10;
+   printf("%d\n", myNmber);
    
    return 0;
 }

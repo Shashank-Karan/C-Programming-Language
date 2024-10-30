@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include <string.h>
 
 int main()
 {
@@ -112,5 +113,6 @@ int main()
             continue;
         } printf("%d\n", i);
     }
+
     return 0;
 }
